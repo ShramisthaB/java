@@ -42,6 +42,7 @@ public class RnaTranscriptionTest {
         assertThat(rnaTranscription.transcribe("A")).isEqualTo("U");
     }
 
+    
     @Ignore("Remove to run test")
     @Test
     public void testRnaTranscription() {
